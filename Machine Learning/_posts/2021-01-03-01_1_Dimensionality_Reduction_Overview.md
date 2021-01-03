@@ -59,10 +59,11 @@ data를 전처리(Pre-processing) 하는 방법은 크게 3가지가 있는데,
 
 ---
 ### Supervised vs. Unsupervised Dimentionality Reduction
-- Supervised Dimentionality Reduction 
+- Supervised Dimentionality Reduction   
   : Feedback loop가 있어서, 변수 선택 과정에서 data mining model이 사용된다.
-- Unsupervised Dimentionality Reduction
+- Unsupervised Dimentionality Reduction  
   : Feedback loop가 없고, 변수 선택 과정에서 data mining model이 사용되지 않는다. Dimentionality Reduction과정이 독립적으로 수행된다.
   
 ---
-
+### Variable/feature Selection vs. Extraction
+- Variable/feature Selection : 
