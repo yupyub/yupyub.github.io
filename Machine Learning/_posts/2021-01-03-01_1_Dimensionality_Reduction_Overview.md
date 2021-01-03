@@ -4,6 +4,8 @@ title: 01_1_Dimensionality Reduction Overview
 
 ---
 
+이 글은 고려대학교 산업경영공학과 강필성 교수님의 IME654 강의를 참고하여 작성되었습니다.
+
 ## 차원축소란?
 머신러닝을 수행하는 과정은 크게 3단계로 나누어진다.
 1. Pre-Processing (전처리)
