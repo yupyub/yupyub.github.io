@@ -32,5 +32,37 @@ data를 전처리(Pre-processing) 하는 방법은 크게 3가지가 있는데,
 즉, n 차원의 정보를 손실 없이 표현하기 위해서는 $2^n$ 개의 sample이 필요하다.
 > "If there are various logical ways to explain a certain phenomenon, the __simplest__ is the best"-Occam's Razor
 
+#### 변수가 많아지는 경우 생기는 문제점
+1. data에 noise가 포함될 확률이 높아진다 -> 성능을 저하시킨다.
+2. 학습과 실제 Applying에 있어서 computation burden(계산복잡도)가 높아진다. -> 느려진다.
+3. 동일한 일반화 성능을 얻기 위해서 더 많은 sample이 필요하다.
+
+#### 차원의 저주를 해결하는 방법
+1. 잘 알고있는 domain knowledge를 기반으로 명시적인 변수를 선택한다.
+2. Objective function에서 Regularization term을 사용한다. (ex. 선형회귀분석의 Ridge, LASSO 등)
+3. 정량적인 __차원축소__ 방법을 사용한다.
+
+실제로 intrinsic dimension(고유 차수)이 original dimension보다 작은 경우가 많다.
+
+---
+#### Backgrounds
+1. 이론적으로, 변수의 수가 증가한다면 모델의 성능도 향상되어야 한다. __단, 각 변수가 독립적이어야 한다__ (현실적으로 불가능)
+2. 현실에서는, 서로 종속적인 변수의 수가 증가한다면 noise가 증가하게 되고, 모델의 성능이 저하된다.
+
+#### 차원 축소의 목적
+- 모델에 가장 적합한 변수들의 부분 집합을 찾는 것
+#### 차원 축소의 효과
+1. 각 변수간의 상관관계 제거
+2. Post-processing의 간략화
+3. 필요 없는 변수의 제거
+4. 시각화를 하기에 더 용이해진다.
+
+---
+### Supervised vs. Unsupervised Dimentionality Reduction
+- Supervised Dimentionality Reduction 
+  : Feedback loop가 있어서, 변수 선택 과정에서 data mining model이 사용된다.
+- Unsupervised Dimentionality Reduction
+  : Feedback loop가 없고, 변수 선택 과정에서 data mining model이 사용되지 않는다. Dimentionality Reduction과정이 독립적으로 수행된다.
+  
 ---
 
