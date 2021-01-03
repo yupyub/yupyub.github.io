@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 01_1: Dimensionality Reduction Overview
-
 ---
 
 ## 차원축소란?
