@@ -70,7 +70,11 @@ data를 전처리(Pre-processing) 하는 방법은 크게 3가지가 있는데,
   : 원본 변수 집합 중 사용할 부분 집합을 선택한다. (ex. Filter, Wrapper)
 - Variable/feature Extraction(Construction)
   : 특정한 방법에 따라 사용할 새로운 변수 집합을 생성한다. (ex. Max.Variance, Max.Dist.Info, Reveal Non-linear Structure)
-|Name|explain|Class label|Learning Algorithm|
-|:---:|:---:|:---:|:---:|
-|Filter|-information Gain -Odds ratio| Used | Not used |
-|Wrapper|-Forward/Backward/Stepwise -Genetic Algorithm|Used|Used|
+  
+|Name|Explain|Class label|Learning Algorithm|
+|:---:|:---|:---:|:---:|
+|Filter|- information Gain<br>- Odds ratio| Used | Not used |
+|Wrapper|- Forward/Backward/Stepwise<br>- Genetic Algorithm|Used|Used|
+|Max.Variance|- Principal Component Analysis(PCA)| Not used | Not used |
+|Max.Dist.Info|- Multidimensional scaling| Not used | Not used |
+|Reveal Non-linear Structure|- LLE, ISOMAP, t-SNE| Not used | Not used |
