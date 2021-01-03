@@ -74,7 +74,7 @@ data를 전처리(Pre-processing) 하는 방법은 크게 3가지가 있는데,
 |Name|Explain|Class label|Learning Algorithm|
 |:---:|:---|:---:|:---:|
 |Filter|- information Gain <br>- Odds ratio| Used | Not used |
-|Wrapper|- Forward/Backward/Stepwise<br>- Genetic Algorithm|Used|Used|
+|Wrapper|- Forward, Backward, Stepwise<br>- Genetic Algorithm|Used|Used|
 |Max.Variance|- Principal Component Analysis(PCA)| Not used | Not used |
 |Max.Dist.Info|- Multidimensional scaling| Not used | Not used |
 |Reveal Non-linear Structure|- LLE, ISOMAP, t-SNE| Not used | Not used |
