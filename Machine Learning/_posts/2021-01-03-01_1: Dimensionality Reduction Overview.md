@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 01-1: Dimensionality Reduction Overview
+title: 01_1: Dimensionality Reduction Overview
 
 ---
 
