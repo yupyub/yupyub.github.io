@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 01_3_Dimensionality Reduction: Genetic Algorithm
+title: 01_3_Dimensionality Reduction:Genetic Algorithm
 
 ---
 
