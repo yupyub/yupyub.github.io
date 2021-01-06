@@ -34,5 +34,20 @@ Genetic Algorithm은 유전과 진화를 모방하여 Reproduction과정을 반�
 이 글에서는 변수 선택에 사용되는 유전 알고리즘을 기반으로 설명하겠습니다.
 
 ### Step1: Initialization
-- Encoding Chromosomes
--
+- 인코딩 방법은 다른 종류의 task마다 다른 방법을 사용할 수 있습니다.
+- Variable Selection에는 일반적으로 Binary Encoding을 사용합니다. 그 중에서 Chromosome을 이용해 보겠습니다.
+#### Encoding Chromosomes
+Chromosome 구조는 아래와 같습니다. 이때 각 x는 유전자(Gene)이고, 아래 0, 1 비트는 0이면 해당 변수를 모델링에 사용하지 않음을, 1이면 해당 변수를 모델링에 사용함을 나타냅니다.
+
+|x1|x2|x3|x4|...|xd|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|1|0|0|1|...|1|
+
+#### Parameter Initialization
+- The Number of chromosome (Population) : N개로 지정한다면 1 세대에서 N개의 변수 부분집합을 평가함
+- Fitness Function : 각각의 Chromosome의 Quality를 평가하는 함수
+- Crossover Mechanism : 교배 방법
+- The rate of mutation : 돌연변이율
+- Stopping criteria : 종료조건 (ex. minimum fitness improvement, maximum iterations)
+
+19:40 (선형회귀분석...)
