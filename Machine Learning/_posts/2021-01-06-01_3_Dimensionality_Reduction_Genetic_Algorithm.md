@@ -33,6 +33,8 @@ Genetic Algorithm은 유전과 진화를 모방하여 Reproduction과정을 반�
 유전 알고리즘은 변수 선택에만 사용되는 것이 아니라, 다양한 최적화 문제에 사용됩니다.
 이 글에서는 변수 선택에 사용되는 유전 알고리즘을 기반으로 설명하겠습니다.
 
+--- 
+
 ### Step1: Initialization
 - 인코딩 방법은 다른 종류의 task마다 다른 방법을 사용할 수 있습니다.
 - Variable Selection에는 일반적으로 Binary Encoding을 사용합니다. 그 중에서 Chromosome을 이용해 보겠습니다.
