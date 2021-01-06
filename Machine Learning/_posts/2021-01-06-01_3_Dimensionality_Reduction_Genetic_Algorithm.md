@@ -41,9 +41,9 @@ Genetic Algorithm은 유전과 진화를 모방하여 Reproduction과정을 반�
 #### Encoding Chromosomes
 Chromosome 구조는 아래와 같습니다. 이때 각 x는 유전자(Gene)이고, 아래 0, 1 비트는 0이면 해당 변수를 모델링에 사용하지 않음을, 1이면 해당 변수를 모델링에 사용함을 나타냅니다.
 
-|x1|x2|x3|x4|...|xd|
+|x1|x2|x3|x4|x5|x6|x7|x8|...|xd|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|1|0|0|1|...|1|
+|1|0|1|1|0|1|0|0|...|1|
 
 #### Parameter Initialization
 - The Number of chromosome (Population) : N개로 지정한다면 1 세대에서 N개의 변수 부분집합을 평가함
