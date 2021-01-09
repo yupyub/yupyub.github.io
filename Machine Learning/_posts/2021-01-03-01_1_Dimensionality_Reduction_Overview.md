@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 01_1_Dimensionality Reduction Overview
+use_math: true
 
 ---
 
