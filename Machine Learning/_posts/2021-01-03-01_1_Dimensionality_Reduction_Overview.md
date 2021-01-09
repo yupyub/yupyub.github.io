@@ -29,7 +29,7 @@ data를 전처리(Pre-processing) 하는 방법은 크게 3가지가 있는데,
 ---
 ### 차원의 저주 (Curse of dimensionality)
 동일한 설명(표현)을 위해서, 변수(variables)의 개수가 선형적으로 증가한다면 객체(sample)의 개수는 지수적으로 증가하여야 한다.
-즉, n 차원의 정보를 손실 없이 표현하기 위해서는 $$ 2^n $$ 개의 sample이 필요하다.
+즉, n 차원의 정보를 손실 없이 표현하기 위해서는 $ 2^n $ 개의 sample이 필요하다.
 > "If there are various logical ways to explain a certain phenomenon, the __simplest__ is the best"-Occam's Razor
 
 #### 변수가 많아지는 경우 생기는 문제점
